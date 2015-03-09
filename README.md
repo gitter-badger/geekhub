@@ -10,7 +10,7 @@
 [CONTRIBUTORS.md]: https://github.com/adham90/geekhub_io/blob/master/CONTRIBUTORS.md
 [CONTRIBUTING.md]: https://github.com/adham90/geekhub.io/blob/master/CONTRIBUTING.md
 <!-- =========== -->
-#[Geekhub.io](http://www.geekhub.io) [![Build Status](https://travis-ci.org/adham90/geekhub.io.svg?branch=master)](https://travis-ci.org/adham90/geekhub.io) [![Code Climate](https://codeclimate.com/github/adham90/geekhub.io/badges/gpa.svg)](https://codeclimate.com/github/adham90/geekhub.io) [![Test Coverage](https://codeclimate.com/github/adham90/geekhub.io/badges/coverage.svg)](https://codeclimate.com/github/adham90/geekhub.io)
+#[Geekhub.io](http://www.geekhub.io) [![Build Status](https://travis-ci.org/adham90/geekhub_io.svg?branch=master)](https://travis-ci.org/adham90/geekhub_io) [![Code Climate](https://codeclimate.com/github/adham90/geekhub.io/badges/gpa.svg)](https://codeclimate.com/github/adham90/geekhub.io) [![Test Coverage](https://codeclimate.com/github/adham90/geekhub.io/badges/coverage.svg)](https://codeclimate.com/github/adham90/geekhub.io)
 
 Geekhub is a social network for geeks where geeks can find each other or hubs (meetups) by [skills, location, university, ...], geeks can also compete on solving programming problems.
 
