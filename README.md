@@ -32,7 +32,7 @@ Geekhub is **100% free** and **open-source**. We encourage and support an active
 
 **Before contributing to Geekhub:**
 
-1. Please read the complete mission statements on geekhub.io. Yes we actually believe this stuff you should too.
+1. Please read the complete mission statements on [geekhub]. Yes we actually believe this stuff you should too.
 2. Dig into **[CONTRIBUTING.MD]**, which covers submitting bugs, requesting new features, preparing your code for a pull request, etc.
 3. Not sure what to work on? **We've got some ideas.**
 
