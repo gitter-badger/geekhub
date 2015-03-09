@@ -1,26 +1,62 @@
 source 'https://rubygems.org'
 
-
 gem 'rails', '4.2.0'
 
+## Quick walk-through to help get up and running with Rails::API to create API-only App
 gem 'rails-api'
 
-gem 'spring', :group => :development
+## Ruby ODM framework for MongoDB
+gem 'mongoid', '~> 4', github: 'mongoid/mongoid'
+gem 'bson_ext'
 
+## Allow for easy setup for Cross-Origin Response Sharing Policy.
+gem 'rack-cors', require: 'rack/cors'
 
+## Templating API JSON responses.
+gem 'rabl'
 
+## JSON parser
+gem 'oj'
 
-# To use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+## Authentication and Registration mechanism.
+gem 'devise', git: 'https://github.com/plataformatec/devise.git'
+gem 'devise_token_auth', '0.1.30'
+gem 'omniauth-github', '~> 1.1.2'
 
-# To use Jbuilder templates for JSON
-# gem 'jbuilder'
+## Provide a simple class-based authorization mechanism.
+gem 'pundit'
 
-# Use unicorn as the app server
-# gem 'unicorn'
+## Helps with denormalizing attributes and store them along with the object.
+gem "persistize"
 
-# Deploy with Capistrano
-# gem 'capistrano', :group => :development
+## Helps with pagination for models.
+gem 'kaminari'
 
-# To use debugger
-# gem 'ruby-debug19', :require => 'ruby-debug'
+## Allows styling emails HTML with non-inline styles.
+gem 'hpricot'
+gem 'premailer-rails'
+gem 'roadie'
+gem 'roadie-rails'
+
+## Provide an easy way to deal with image-uploads.
+gem 'dragonfly'
+gem 'dragonfly-s3_data_store'
+
+group :production do
+  gem 'rails_12factor'
+  gem 'puma'
+  gem 'rack-cache', require: 'rack/cache'
+
+  ## To enable API responses compression.
+  gem 'heroku-deflater'
+end
+
+## Exception Notifier Plugin for Rails
+gem 'exception_notification'
+
+group :test, :development do
+  gem 'spring'
+  gem 'rspec-rails', '~> 3.2.1'
+  gem 'factory_girl_rails', '4.3.0'
+  gem 'email_spec'
+end
