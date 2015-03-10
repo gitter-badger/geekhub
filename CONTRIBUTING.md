@@ -1,11 +1,10 @@
-# Contributing to Geekhub
 ## Reporting Bugs
 
 1. Always update to the most recent master release; the bug may already be resolved.
 
 2. Search for similar issues on the [github issues forum][m]; it may already be an identified problem.
 
-3. If this is a bug or problem that **requires any kind of extended discussion -- open [a topic on github][m] about it**.
+3. If this is a bug or problem that **requires any kind of extended discussion -- open [a topic on github][mn] about it**.
 
 4. If possible, submit a Pull Request with a failing test. If you'd rather take matters into your own hands, fix the bug yourself (jump down to the "Contributing (Step-by-step)" section).
 
@@ -13,7 +12,7 @@
 
 ## Requesting New Features
 
-1. Do not submit a feature request on GitHub; all feature requests on GitHub will be closed. Instead, visit the **[Geekhub meta forum, features category](http://geekhub.io)**, and search this list for similar feature requests. It's possible somebody has already asked for this feature or provided a pull request that we're still discussing.
+1. Do not submit a feature request on GitHub; all feature requests on GitHub will be closed. Instead, visit the **[geekhub features forum](http://features.geekhub.io)**, and search this list for similar feature requests. It's possible somebody has already asked for this feature or provided a pull request that we're still discussing.
 
 2. Provide a clear and detailed explanation of the feature you want and why it's important to add. The feature must apply to a wide array of users of Geekhub; for smaller, more targeted "one-off" features, you might consider writing a plugin for Geekhub. You may also want to provide us with some advance documentation on the feature, which will help the community to better understand where it will fit.
 
@@ -35,7 +34,7 @@
 3. Code
   * Adhere to common conventions you see in the existing code
   * Include tests, and ensure they pass
-  * Search to see if your new functionality has been discussed on [the Geekhub meta forum](http://geekhub.io), and include updates as appropriate
+  * Search to see if your new functionality has been discussed on **[geekhub features forum](http://features.geekhub.io)**, and include updates as appropriate
 
 4. Follow the Coding Conventions
   * two spaces, no tabs
@@ -109,4 +108,5 @@
 
   > Though we ask you to clean your history and squash commit before submitting a pull-request, please do not change any commits you've submitted already (as other work might be build on top).
 
-[m]: https://github.com/adham90/geekhub_io/issues
+[m]: https://github.com/adham90/geekhub_io/issues/
+[mn]: https://github.com/adham90/geekhub_io/issues/new

@@ -74,6 +74,25 @@ Rails.application.configure do
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
 
+  # Do not dump schema after migrations.
+  config.active_record.dump_schema_after_migration = false
+
+  OmniAuth.config.full_host = "http://#{ENV['API_HOST']}"
+
+  # Notification emails configurations.
+  config.roadie.url_options = { host: ENV['WEB_CLIENT_HOST'], scheme: "http" }
+  config.action_mailer.default_options = { from: ENV['DEFAULT_FROM_EMAIL'] }
+  config.action_mailer.default_url_options = { :host => ENV['API_HOST'] }
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    :authentication => :plain,
+    :address => ENV['SMTP_HOSTNAME'],
+    :port => 587,
+    :domain => ENV['SMTP_DOMAIN'],
+    :user_name => ENV['SMTP_USERNAME'],
+    :password => ENV['SMTP_PASSWORD'],
+  }
+
 
   # Allow Cross-Origin Resource Sharing header to allow cross
   # domain xhr requests.

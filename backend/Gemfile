@@ -2,12 +2,9 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.2.0'
 
-## Quick walk-through to help get up and running with Rails::API to create API-only App
 gem 'rails-api'
 
-## Ruby ODM framework for MongoDB
-gem 'mongoid', '~> 4', github: 'mongoid/mongoid'
-gem 'bson_ext'
+gem 'pg'
 
 ## Allow for easy setup for Cross-Origin Response Sharing Policy.
 gem 'rack-cors', require: 'rack/cors'
@@ -32,6 +29,9 @@ gem "persistize"
 ## Helps with pagination for models.
 gem 'kaminari'
 
+# Used to manage notifications, emails and messaging.
+gem 'mailboxer', git: 'git://github.com/div/mailboxer.git', :branch => 'rails42-foreigner'
+
 ## Allows styling emails HTML with non-inline styles.
 gem 'hpricot'
 gem 'premailer-rails'
@@ -49,6 +49,9 @@ group :production do
   gem 'rails_12factor'
   gem 'puma'
   gem 'rack-cache', require: 'rack/cache'
+  
+  # To enable API responses compression.
+  gem 'heroku-deflater'
 end
 
 group :test, :development do
