@@ -20,7 +20,7 @@ gem 'oj'
 
 ## Authentication and Registration mechanism.
 gem 'devise', git: 'https://github.com/plataformatec/devise.git'
-gem 'devise_token_auth', '0.1.30'
+gem 'devise_token_auth', '~> 0.1.31'
 gem 'omniauth-github', '~> 1.1.2'
 
 ## Provide a simple class-based authorization mechanism.
@@ -46,9 +46,6 @@ group :production do
   gem 'rails_12factor'
   gem 'puma'
   gem 'rack-cache', require: 'rack/cache'
-
-  ## To enable API responses compression.
-  gem 'heroku-deflater'
 end
 
 ## Exception Notifier Plugin for Rails
