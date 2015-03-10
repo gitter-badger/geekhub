@@ -73,4 +73,17 @@ Rails.application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+
+  # Allow Cross-Origin Resource Sharing header to allow cross
+  # domain xhr requests.
+  config.middleware.insert_before Warden::Manager, Rack::Cors do
+    allow do
+      origins ENV['WEB_CLIENT_HOST']
+      resource '*',
+      :headers => :any,
+      :expose => ['access-token', 'expiry', 'token-type', 'uid', 'client'],
+      :methods => [:get, :delete, :post, :put, :options]
+    end
+  end
 end
