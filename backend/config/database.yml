@@ -9,7 +9,7 @@ default: &default
 development:
   adapter: postgresql
   encoding: unicode
-  database: backend_development
+  database: geekhub_development
   pool: 5
   username: adham
   password: password
@@ -17,13 +17,13 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: backend_test
+  database: geekhub_test
   pool: 5
   username: adham
   password: password
 
 production:
   <<: *default
-  database: backend_production
+  database: geekhub_production
   username: backend
   password: <%= ENV['BACKEND_DATABASE_PASSWORD'] %>
