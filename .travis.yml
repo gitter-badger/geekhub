@@ -4,7 +4,7 @@ env:
   matrix:
   - DISPLAY=:99.0
   global:
-  - GEEKHUB_HOME=/home/travis/build/geehub_io
+  - GEEKHUB_HOME=/home/travis/geehub_io
 
 rvm:
   - 2.2.0
