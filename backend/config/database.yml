@@ -1,29 +1,23 @@
-
-default: &default
-  adapter: postgresql
-  encoding: unicode
-  # For details on connection pooling, see rails configuration guide
-  # http://guides.rubyonrails.org/configuring.html#database-pooling
-  pool: 5
-
-development:
+defaults: &defaults
   adapter: postgresql
   encoding: unicode
   database: geekhub_development
   pool: 5
-  username: adham
-  password: password
+  username: postgres
+  password:
+  timeout: 5000
+
+development:
+  <<: *defaults
+  host: localhost
 
 test:
-  adapter: postgresql
-  encoding: unicode
+  <<: *defaults
   database: geekhub_test
-  pool: 5
-  username: adham
-  password: password
+  host: localhost
 
 production:
-  <<: *default
+  <<: *defaults
   database: geekhub_production
-  username: backend
-  password: <%= ENV['BACKEND_DATABASE_PASSWORD'] %>
+  url:  <%= ENV["DATABASE_URL"] %>
+  pool: <%= ENV['MAX_THREADS'] || ENV["DB_POOL"] || 5 %>
