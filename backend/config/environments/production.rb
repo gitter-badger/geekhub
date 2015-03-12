@@ -93,7 +93,6 @@ Rails.application.configure do
     :password => ENV['SMTP_PASSWORD'],
   }
 
-
   # Allow Cross-Origin Resource Sharing header to allow cross
   # domain xhr requests.
   config.middleware.insert_before Warden::Manager, Rack::Cors do

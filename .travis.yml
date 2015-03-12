@@ -10,9 +10,6 @@ rvm:
   - 2.2.0
   - ruby-head
 
-services:
-  - mongodb
-
 before_install:
   - cd /usr/lib/git-core/
   - sudo wget https://raw.github.com/apenwarr/git-subtree/master/git-subtree.sh
@@ -26,7 +23,6 @@ bundler_args: --without development
 
 before_script:
   - cd $GEEKHUB_HOME/backend
-  - cp config/database.yml.sample config/database.yml
   - psql -c 'create database geekhub_test;' -U postgres
   - bundle exec rake db:migrate
 

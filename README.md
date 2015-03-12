@@ -42,7 +42,7 @@ Geekhub.io logo ®, Geekhub Inc.
 [Geekhub]: http://www.geekhub.io
 [Ruby on Rails]: https://github.com/rails/rails
 [AngularJS]: https://github.com/angular/angular.js
-[PostgreSQL]: http://www.postgresql.org/
+[PostgreSQL]: https://github.com/postgres/postgres
 [Redis]: https://github.com/antirez/redis
 [/backend/Gemfile]: https://github.com/adham90/geekhub.io/blob/master/backend%2FGemfile
 [CONTRIBUTORS.md]: https://github.com/adham90/geekhub_io/blob/master/CONTRIBUTORS.md

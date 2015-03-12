@@ -29,6 +29,9 @@ gem "persistize"
 ## Helps with pagination for models.
 gem 'kaminari'
 
+## Used to manage notifications, emails and messaging.
+gem 'mailboxer', git: 'git://github.com/div/mailboxer.git', :branch => 'rails42-foreigner'
+
 ## Allows styling emails HTML with non-inline styles.
 gem 'hpricot'
 gem 'premailer-rails'
@@ -49,6 +52,7 @@ group :production do
 end
 
 group :test, :development do
+  gem 'dotenv-rails'
   gem 'spring'
   gem 'rspec-rails', '~> 3.2.1'
   gem 'factory_girl_rails', '4.3.0'
