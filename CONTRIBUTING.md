@@ -22,11 +22,11 @@
 
 1. Clone the Repo:
 
-        git clone https://github.com/adham90/geekhub_io
+        git clone https://github.com/adham90/geekhub
 
 2. Create a new Branch:
 
-        cd geekhub_io
+        cd geekhub
         git checkout -b new_geekhub_branch
 
  > Please keep your code clean: one feature or bug-fix per branch. If you find another bug, you want to fix while being in a new branch, please fix it in a separated branch instead.
@@ -64,7 +64,7 @@
 7. Fork
 
   ```
-  git remote add mine git@github.com:<your user name>/geekhub_io.git
+  git remote add mine git@github.com:<your user name>/geekhub.git
   ```
 
 8. Push to your remote
@@ -91,7 +91,7 @@
 
 
   In order to make a pull request,
-  * Navigate to the Geekhub repository you just pushed to (e.g. https://github.com/your-user-name/geekhub_io)
+  * Navigate to the Geekhub repository you just pushed to (e.g. https://github.com/your-user-name/geekhub)
   * Click "Pull Request".
   * Write your branch name in the branch field (this is filled with "master" by default)
   * Click "Update Commit Range".
@@ -108,5 +108,5 @@
 
   > Though we ask you to clean your history and squash commit before submitting a pull-request, please do not change any commits you've submitted already (as other work might be build on top).
 
-[m]: https://github.com/adham90/geekhub_io/issues/
-[mn]: https://github.com/adham90/geekhub_io/issues/new
+[m]: https://github.com/adham90/geekhub/issues/
+[mn]: https://github.com/adham90/geekhub/issues/new

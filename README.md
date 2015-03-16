@@ -1,8 +1,8 @@
-![logo](https://github.com/adham90/geekhub.io/blob/master/logo.jpg "geekhub.io")
+![logo](https://github.com/adham90/geekhub/blob/master/logo.jpg "geekhub.io")
 
-#[Geekhub.io](http://www.geekhub.io) [![Build Status](https://travis-ci.org/adham90/geekhub_io.svg?branch=master)](https://travis-ci.org/adham90/geekhub_io) [![Code Climate](https://codeclimate.com/github/adham90/geekhub.io/badges/gpa.svg)](https://codeclimate.com/github/adham90/geekhub.io) [![Test Coverage](https://codeclimate.com/github/adham90/geekhub.io/badges/coverage.svg)](https://codeclimate.com/github/adham90/geekhub.io)
+#[Geekhub.io](http://www.geekhub.io) [![Build Status](https://travis-ci.org/adham90/geekhub.svg?branch=master)](https://travis-ci.org/adham90/geekhub) [![Code Climate](https://codeclimate.com/github/adham90/geekhub.io/badges/gpa.svg)](https://codeclimate.com/github/adham90/geekhub.io) [![Test Coverage](https://codeclimate.com/github/adham90/geekhub.io/badges/coverage.svg)](https://codeclimate.com/github/adham90/geekhub.io)
 
-Geekhub is a open-source social network for geeks where geeks can find each other or hubs (meetups) by {skills, location, university, ...} or pair program online, compete on solving programming problems, etc....
+Geekhub is a open-source social network for geeks, [complete list of features](https://github.com/adham90/geekhub/wiki/Features).
 
 ##Built With
 
@@ -44,7 +44,7 @@ Geekhub.io logo ®, Geekhub Inc.
 [AngularJS]: https://github.com/angular/angular.js
 [PostgreSQL]: https://github.com/postgres/postgres
 [Redis]: https://github.com/antirez/redis
-[/backend/Gemfile]: https://github.com/adham90/geekhub.io/blob/master/backend%2FGemfile
-[CONTRIBUTORS.md]: https://github.com/adham90/geekhub_io/blob/master/CONTRIBUTORS.md
-[CONTRIBUTING.md]: https://github.com/adham90/geekhub.io/blob/master/CONTRIBUTING.md
-[geekhub wiki!]: https://github.com/adham90/geekhub_io/wiki
+[/backend/Gemfile]: https://github.com/adham90/geekhub/blob/master/backend%2FGemfile
+[CONTRIBUTORS.md]: https://github.com/adham90/geekhub/blob/master/CONTRIBUTORS.md
+[CONTRIBUTING.md]: https://github.com/adham90/geekhub/blob/master/CONTRIBUTING.md
+[geekhub wiki!]: https://github.com/adham90/geekhub/wiki
