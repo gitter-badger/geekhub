@@ -2,10 +2,10 @@ class ApplicationController < ActionController::API
   include Pundit
   include DeviseTokenAuth::Concerns::SetUserByToken
   before_action :configure_permitted_parameters, if: :devise_controller?
-  protect_from_forgery with: :null_session
+  # protect_from_forgery with: :null_session
 
   rescue_from Pundit::NotAuthorizedError, with: :user_not_authorized
-  rescue_from Mongoid::Errors::DocumentNotFound, with: :not_found
+  rescue_from ActiveRecord::RecordNotFound, with: :not_found
 
  private
    def user_not_authorized

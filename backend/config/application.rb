@@ -20,10 +20,10 @@ module Backend
   class Application < Rails::Application
 
     ## enables sessions
-    config.middleware.use Rack::Session::Cookie
+    # config.middleware.use Rack::Session::Cookie
     ## OR--
-    # config.session_store
-    # config.api_only = false
+    config.session_store
+    config.api_only = false
 
     config.active_record.raise_in_transactional_callbacks = true
   end
