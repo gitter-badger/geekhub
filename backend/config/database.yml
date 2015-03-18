@@ -1,0 +1,23 @@
+defaults: &defaults
+  adapter: postgresql
+  encoding: unicode
+  database: geekhub_development
+  pool: 5
+  username: postgres
+  password:
+  timeout: 5000
+
+development:
+  <<: *defaults
+  host: localhost
+
+test:
+  <<: *defaults
+  database: geekhub_test
+  host: localhost
+
+production:
+  <<: *defaults
+  database: geekhub_production
+  url:  <%= ENV["DATABASE_URL"] %>
+  pool: <%= ENV['MAX_THREADS'] || ENV["DB_POOL"] || 5 %>
