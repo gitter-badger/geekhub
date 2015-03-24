@@ -3,17 +3,21 @@
 
 Geekhub is a open-source social network for geeks, [complete list of features](https://github.com/adham90/geekhub/wiki/Features).
 
-##Built With
+##Built completely with open-source tools :kissing_heart:
 
-* [Ruby on Rails] — Our back end API is a Rails app. It responds to requests RESTfully in JSON.
-* [AngularJS] — Our front end is an AngularJS app that communicates with the Rails API.
+* [Ruby on Rails] — Our back end API is a **Rails** app.
+* [AngularJS] — Our front end is an **AngularJS** app that communicates with the Rails API.
 * [PostgreSQL] — Our main data store is in Postgre.
-* [Redis] — We use Redis as a cache and for transient data.
+* [Redis] — We use **redis** as a cache and for transient data.
+* [Yeoman] — Our Scaffolding tool for the frontend.
+* [GulpJS] — Our Task / Build runner for the frontend.
+* [Docker] — Our application container engine.
+* [Vagrant] — We use **vagrant** to create and configure lightweight, reproducible, and portable development environment.
 
 Plus lots of Ruby Gems, a complete list of which is at [/backend/Gemfile].
 
 
-##Contributing
+##Contributing :heart:
 Geekhub is **100% free** and **open-source**. We encourage and support an active, healthy community that accepts contributions from the public – including you!
 
 **Geekhub** is built using **AngualrJS** on the frontend and **Ruby on Rails** on the backend. Frontend and backend are completely seperated to give you a better chance at contributing to the project if you're familiar with just one technology or if you want to contribute to one of them without wanting to deal with the other.
@@ -47,3 +51,9 @@ Geekhub.io logo ®, Geekhub Inc.
 [CONTRIBUTORS.md]: https://github.com/adham90/geekhub/blob/master/CONTRIBUTORS.md
 [CONTRIBUTING.md]: https://github.com/adham90/geekhub/blob/master/CONTRIBUTING.md
 [geekhub wiki!]: https://github.com/adham90/geekhub/wiki
+
+[Vagrant]: https://github.com/mitchellh/vagrant
+[Docker]: https://github.com/docker/docker
+[GulpJS]: https://github.com/gulpjs/gulp
+[Yeoman]: https://github.com/yeoman
+
