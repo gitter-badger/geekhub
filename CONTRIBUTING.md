@@ -1,4 +1,4 @@
-## Reporting Bugs
+## Reporting Bugs :beetle:
 
 1. Always update to the most recent master release; the bug may already be resolved.
 
@@ -10,7 +10,7 @@
 
 5. When the bug is fixed, we will do our best to update the Geekhub.
 
-## Requesting New Features
+## Requesting New Features :new:
 
 1. Do not submit a feature request on GitHub; all feature requests on GitHub will be closed. Instead, visit the **[geekhub features forum](http://features.geekhub.io)**, and search this list for similar feature requests. It's possible somebody has already asked for this feature or provided a pull request that we're still discussing.
 

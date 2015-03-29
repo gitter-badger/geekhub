@@ -17,7 +17,7 @@ Geekhub is a open-source social network for geeks, [complete list of features](h
 Plus lots of Ruby Gems, a complete list of which is at [/backend/Gemfile].
 
 
-##Contributing :heart:
+##Contributing :heart: :beer:
 Geekhub is **100% free** and **open-source**. We encourage and support an active, healthy community that accepts contributions from the public – including you!
 
 **Geekhub** is built using **AngualrJS** on the frontend and **Ruby on Rails** on the backend. Frontend and backend are completely seperated to give you a better chance at contributing to the project if you're familiar with just one technology or if you want to contribute to one of them without wanting to deal with the other.
@@ -30,16 +30,15 @@ Geekhub is **100% free** and **open-source**. We encourage and support an active
 
 We look forward to seeing your pull requests!
 
-
-##Copyright / License
+##Copyright / License :copyright:
 Licensed under the GNU General Public License Version 2.0 (or later); you may not use this work except in compliance with the License. You may obtain a copy of the License in the LICENSE file, or at:
 
 http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
-Geekhub.io logo ®, Geekhub Inc.
-
+##Contact :envelope:
+Feel free to contact us at [ask@geekhub.io](mailto:ask@geekhub.io).
 
 
 [Geekhub]: http://www.geekhub.io
@@ -51,7 +50,6 @@ Geekhub.io logo ®, Geekhub Inc.
 [CONTRIBUTORS.md]: https://github.com/adham90/geekhub/blob/master/CONTRIBUTORS.md
 [CONTRIBUTING.md]: https://github.com/adham90/geekhub/blob/master/CONTRIBUTING.md
 [geekhub wiki!]: https://github.com/adham90/geekhub/wiki
-
 [Vagrant]: https://github.com/mitchellh/vagrant
 [Docker]: https://github.com/docker/docker
 [GulpJS]: https://github.com/gulpjs/gulp
