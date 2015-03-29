@@ -18,6 +18,7 @@ test:
 
 production:
   <<: *defaults
-  database: geekhub_production
+  password: password
+  database: app_db
   url:  <%= ENV["DATABASE_URL"] %>
   pool: <%= ENV['MAX_THREADS'] || ENV["DB_POOL"] || 5 %>
