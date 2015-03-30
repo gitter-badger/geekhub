@@ -18,7 +18,7 @@
 
 3. If you're a Rock Star programmer, build the feature yourself (refer to the "Contributing (Step-by-step)" section below).
 
-## Contributing (Step-by-step)
+## Contributing (Step-by-step) :memo:
 
 1. Clone the Repo:
 

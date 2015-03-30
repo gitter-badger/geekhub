@@ -12,5 +12,4 @@ class User < ActiveRecord::Base
       { headers: {"x-amz-acl" => "public-read-write"} }
     end
   end
-  
 end

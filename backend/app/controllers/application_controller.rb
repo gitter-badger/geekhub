@@ -15,7 +15,7 @@ class ApplicationController < ActionController::API
    def not_found
      render nothing: true, status: :not_found
    end
-   
+
    def configure_permitted_parameters
     [:bio, :avatar, :name].each do |attribute|
       devise_parameter_sanitizer.for(:sign_up) << attribute

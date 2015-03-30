@@ -12,7 +12,6 @@ Geekhub is a open-source social network for geeks, [complete list of features](h
 * [Yeoman] — Our Scaffolding tool for the frontend.
 * [GulpJS] — Our Task / Build runner for the frontend.
 * [Docker] — Our application container engine.
-* [Vagrant] — We use **vagrant** to create and configure lightweight, reproducible, and portable development environment.
 
 Plus lots of Ruby Gems, a complete list of which is at [/backend/Gemfile].
 
@@ -30,6 +29,9 @@ Geekhub is **100% free** and **open-source**. We encourage and support an active
 
 We look forward to seeing your pull requests!
 
+##Contributors :heart_eyes:
+Check out all the super awesome contributors at the [contributors page](https://github.com/adham90/geekhub/graphs/contributors). :sparkling_heart:
+
 ##Copyright / License :copyright:
 Licensed under the GNU General Public License Version 2.0 (or later); you may not use this work except in compliance with the License. You may obtain a copy of the License in the LICENSE file, or at:
 
@@ -41,6 +43,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 Feel free to contact us at [ask@geekhub.io](mailto:ask@geekhub.io).
 
 
+
 [Geekhub]: http://www.geekhub.io
 [Ruby on Rails]: https://github.com/rails/rails
 [AngularJS]: https://github.com/angular/angular.js
@@ -50,7 +53,6 @@ Feel free to contact us at [ask@geekhub.io](mailto:ask@geekhub.io).
 [CONTRIBUTORS.md]: https://github.com/adham90/geekhub/blob/master/CONTRIBUTORS.md
 [CONTRIBUTING.md]: https://github.com/adham90/geekhub/blob/master/CONTRIBUTING.md
 [geekhub wiki!]: https://github.com/adham90/geekhub/wiki
-[Vagrant]: https://github.com/mitchellh/vagrant
 [Docker]: https://github.com/docker/docker
 [GulpJS]: https://github.com/gulpjs/gulp
 [Yeoman]: https://github.com/yeoman
