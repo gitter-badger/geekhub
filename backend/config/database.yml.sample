@@ -1,0 +1,18 @@
+defaults: &defaults
+  adapter: postgresql
+  encoding: unicode
+  database: geekhub_development
+  pool: 5
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+  database: geekhub_test
+
+production:
+  <<: *defaults
+  database: geekhub_production
+  url:  <%= ENV["DATABASE_URL"] %>
+  pool: <%= ENV['MAX_THREADS'] || ENV["DB_POOL"] || 5 %>
