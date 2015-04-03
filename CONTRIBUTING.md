@@ -22,7 +22,7 @@
 
 1. Clone the Repo:
 
-        git clone https://github.com/adham90/geekhub
+        git clone https://github.com/geekhub-io/geekhub
 
 2. Create a new Branch:
 
@@ -108,5 +108,5 @@
 
   > Though we ask you to clean your history and squash commit before submitting a pull-request, please do not change any commits you've submitted already (as other work might be build on top).
 
-[m]: https://github.com/adham90/geekhub/issues/
-[mn]: https://github.com/adham90/geekhub/issues/new
+[m]: https://github.com/geekhub-io/geekhub/issues/
+[mn]: https://github.com/geekhub-io/geekhub/issues/new
