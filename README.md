@@ -1,5 +1,5 @@
 ![logo](https://github.com/adham90/geekhub/blob/master/logo.jpg "geekhub.io")
-#[Geekhub.io](http://www.geekhub.io) [![Build Status](https://travis-ci.org/adham90/geekhub.svg?branch=master)](https://travis-ci.org/adham90/geekhub) [![Code Climate](https://codeclimate.com/github/adham90/geekhub/badges/gpa.svg)](https://codeclimate.com/github/adham90/geekhub) [![Test Coverage](https://codeclimate.com/github/adham90/geekhub/badges/coverage.svg)](https://codeclimate.com/github/adham90/geekhub)
+#[Geekhub.io](http://www.geekhub.io) [![Build Status](https://travis-ci.org/geekhub-io/geekhub.svg?branch=master)](https://travis-ci.org/geekhub-io/geekhub) [![Code Climate](https://codeclimate.com/github/geekhub-io/geekhub/badges/gpa.svg)](https://codeclimate.com/github/geekhub-io/geekhub) [![Test Coverage](https://codeclimate.com/github/geekhub-io/geekhub/badges/coverage.svg)](https://codeclimate.com/github/geekhub-io/geekhub)
 
 Geekhub is a open-source social network for geeks, [complete list of features](https://github.com/adham90/geekhub/wiki/Features).
 
