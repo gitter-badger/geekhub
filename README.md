@@ -1,6 +1,8 @@
 ![logo](https://github.com/adham90/geekhub/blob/master/logo.jpg "geekhub.io")
 #[Geekhub.io](http://www.geekhub.io) [![Build Status](https://travis-ci.org/geekhub-io/geekhub.svg?branch=master)](https://travis-ci.org/geekhub-io/geekhub) [![Code Climate](https://codeclimate.com/github/geekhub-io/geekhub/badges/gpa.svg)](https://codeclimate.com/github/geekhub-io/geekhub) [![Test Coverage](https://codeclimate.com/github/geekhub-io/geekhub/badges/coverage.svg)](https://codeclimate.com/github/geekhub-io/geekhub)
 
+[![Join the chat at https://gitter.im/geekhub-io/geekhub](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/geekhub-io/geekhub?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Geekhub is a open-source social network for geeks, [complete list of features](https://github.com/adham90/geekhub/wiki/Features).
 
 ##Built completely with open-source tools :kissing_heart:
